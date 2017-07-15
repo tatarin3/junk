@@ -1,0 +1,45 @@
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+body {
+  background-color: gray;
+}
+
+.header {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.sidebar {
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 17%;
+  min-height: 300px;
+}
+.content {
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 80%;
+  height: 800px;
+}
+.footer {
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
