@@ -13,9 +13,14 @@
 /* close commented backslash hack */
 
 body {
-  background-color: gray;
+  background-image: url(images/0.jpeg);
 }
-
+img {
+  max-width: 100%;
+}
+a {
+  font-size:
+}
 .header {
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -26,7 +31,7 @@ body {
   background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 5px;
-  width: 17%;
+  width: 20%(-2px);
   min-height: 300px;
 }
 .content {
